@@ -1,19 +1,16 @@
-# workflows
-# should have a name
+# Workflow name
 name: hello
 
+# Trigger
 on:
-  workflow_dispatch: 
+  workflow_dispatch:
 
+# Jobs
 jobs:
   say_hello:
     runs-on: ubuntu-latest
+
+    # Steps
     steps:
       - name: say hello
-        run: echo"hello"
-
-# jobs
-
-# steps
-
-# Actions
+        run: echo "hello"
