@@ -1,0 +1,19 @@
+# workflows
+# should have a name
+name: hello
+
+on:
+  workflow_dispatch: 
+
+jobs:
+  say_hello:
+    runs-on: ubuntu-latest
+    steps:
+      - name: say hello
+        run: echo"hello"
+
+# jobs
+
+# steps
+
+# Actions
